@@ -1,0 +1,237 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: linear-gradient(orange, red);
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: right;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 20px;
+}
+
+header {
+  background-color: #D41301;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 0px;
+  width: 100%;
+  top: 0;
+  color: white;
+  z-index: 100;
+  font-family: "futura-pt-condensed";
+  text-decoration: none;  
+}
+
+header h1 {
+  color: white;
+  font-family: "futura-pt-condensed";
+}
+
+.navlink a {
+  border: solid;
+  border-color: #500A01;
+  display: block;
+  background-color: #700A01;
+  color: white;
+  height: 150px;
+  padding-top: 40px;
+  font-family: "futura-pt-condensed";
+}
+
+.navlink a:hover {
+  background-color: #D41301;
+  color: white;
+  text-decoration: none;
+}
+
+.hometext {
+  font-size: 120%;
+  color: white;
+  border: solid;
+  border-color: #500A01;
+  background-color: #700A01;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+
+.hometext h2 {
+  font-family: "futura-pt-condensed"
+}
+
+#wbbj {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.contacttext {
+  font-size: 120%;
+  text-align: justify;
+  color: black;
+  border: solid;
+  border-color: #500A01;
+  background-color: #700A01;
+  margin-bottom: 30px;
+  padding: 5px;
+} 
+
+.homepics img {
+  height: 200px;
+}
+
+.reviews .media {
+  border: solid;
+  border-color: #500A01;
+  background-color: #700A01;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+  
+#myfooter {
+  text-align: center;
+  width: 100%;
+  background-color: #700A01;
+  color: white;
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: "futura-pt-condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://use.typekit.net/af/af8659/00000000000000000001203d/27/l?subset_id=2&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/af8659/00000000000000000001203d/27/d?subset_id=2&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/af8659/00000000000000000001203d/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+  background-color: #700A01;
+  color: white;
+  font-family: "futura-pt-condensed";
+}
+
+.reviewtext {
+  display: table;
+  color: white;
+}
+
+.reviewtext p {
+  font-style: italic;
+}
+
+.reviewtext h4 {
+  font-family: "futura-pt-condensed";
+}
+
+.col {
+  display: table-cell;
+  border: solid;
+  width: 33%;
+  border-color: #500A01;
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    display: block;
+    width: 100%;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 600px;
+  margin-top: 10px;
+}
+
+#homesocial {
+  background-color: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+button {
+ width: 60px;
+ height: 60px;
+ background-color: white;
+}
+
+.footlogos {
+  width: 25px;
+  height: 25px;
+}
+
+.footul {
+  float: right;
+}
+
+.footp {
+  float: left;
+  font-size: 65%;
+}
+
+@media (min-width: 768px) {
+  .mobilenav {
+    display: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #sidenav {
+    display: none;
+  }
+  
+  .logo {
+    display: none;
+  }
+  
+  h1 {
+    float: right;
+  }
+  
+  #messagefield {
+    display: none;
+  }
+}
+
+.menu {
+  border: solid;
+  border-color: #500A01;
+  background-color: #700A01;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.menu h1 {
+  font-family: "futura-pt-condensed"
+}
+
+#cateringp {
+  font-weight: bold;
+}
+
+.menu h2 {
+  font-family: "futura-pt-condensed"
+}
+
+.mobilenav li {
+  display: inline;
+  font-size: 3vw;
+}
+
+.mobilenav {
+  float: left;
+}
+
+#homeslider {
+  margin-bottom: 0px;
+}

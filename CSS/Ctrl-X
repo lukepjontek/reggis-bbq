@@ -1,0 +1,10 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: #D41301;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+  width: 100%;
+  color: white;
+  font-family: "futura-pt-condensed";
+  y-index :1;
+}
